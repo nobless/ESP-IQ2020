@@ -14,6 +14,8 @@
 #include "esphome/components/text_sensor/text_sensor.h"
 #endif
 
+#define USE_NUMBER
+
 #include <memory>
 #include <string>
 #include <vector>
