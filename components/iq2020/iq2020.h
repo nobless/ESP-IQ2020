@@ -152,7 +152,7 @@ public:
 	void selectAction(unsigned int selectid, int state);
 #endif
 #ifdef USE_NUMBER
-    void numberAction(unsigned int numberid, int value);
+    void numberAction(unsigned int numberid, int state);
 #endif
 	void setTempAction(float newtemp);
 	void setTime(int hour, int minute, int second, int year, int month, int day);
