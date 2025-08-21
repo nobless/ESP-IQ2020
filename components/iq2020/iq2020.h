@@ -151,7 +151,9 @@ public:
 #ifdef USE_SELECT
 	void selectAction(unsigned int selectid, int state);
 #endif
-	void numberAction(unsigned int numberid, int state);
+#ifdef USE_NUMBER
+    void numberAction(unsigned int numberid, int value);
+#endif
 	void setTempAction(float newtemp);
 	void setTime(int hour, int minute, int second, int year, int month, int day);
 
