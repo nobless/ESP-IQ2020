@@ -1,3 +1,10 @@
+#include <vector>
+#include "esphome/components/select/select.h"
+
+
+std::vector<esphome::select::Select *> g_iq2020_select;
+std::vector<int> select_pending;
+
 #include "iq2020.h"
 #include "iq2020_fan.h"
 #include "iq2020_switch.h"
